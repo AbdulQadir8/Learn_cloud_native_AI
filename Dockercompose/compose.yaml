@@ -1,9 +1,0 @@
-version: '1.0.0'
-name: "fastapi"
-services:
-  api:
-    build:
-      context: ./helloworld
-      dockerfile: Dockerfile
-    ports:
-      - 8000:8000
